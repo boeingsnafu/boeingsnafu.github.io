@@ -51,18 +51,10 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, fal
 </script>
 
 <style>
-{ margin: 0; padding: 0 }
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-}
-html {
-  background: url("boeing-nosedive.jpg");
-  webkit-background-size: cover;
-  moz-background-size: cover;
-  o-background-size: cover;
-  background-size: cover;
 }
 body, html {
 	height: 100%;
@@ -160,19 +152,19 @@ body {
 <div id="wrapper">
 	<ul id="deck">
 		<li class="card"><div>
-			<h3>Card 1</h3>
+			<h3>Title</h3>
 			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC" alt="thumb" width="125" height="125">
-			<p>Text 1</p>
+			<p>Text</p>
 		</div></li>
 		<li class="card"><div>
-			<h3>Card 2</h3>
+			<h3>Title</h3>
 			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC" alt="thumb" width="125" height="125">
-			<p>Text 2</p>
+			<p>Text</p>
 		</div></li>
 		<li class="card"><div>
-			<h3>Card 3</h3>
+			<h3>Title</h3>
 			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC" alt="thumb" width="125" height="125">
-			<p>Text 3</p>
+			<p>Text</p>
 		</div></li>
 	</ul>
 </div>
