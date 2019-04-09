@@ -77,9 +77,7 @@ body {
 	overflow: hidden;
 	background-color: #aaa;
 	font-size: 12px;
-}
-.bg {
-        background-image: url("boeing-nosedive.jpg") no-repeat center center fixed;
+        background-image: url("boeing-nosedive.jpg");
         height: 100%;
         background-position: center;
         background-repeat: no-repeat;
