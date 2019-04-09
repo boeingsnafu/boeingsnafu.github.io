@@ -75,9 +75,15 @@ body, ul, li, h1, h2, h3, img, p {
 body {
 	/* On modern browsers, prevent the whole page to bounce */
 	overflow: hidden;
-        background-image: url("boeing-nosedive.jpg");
 	background-color: #aaa;
 	font-size: 12px;
+}
+.bg {
+        background-image: url("boeing-nosedive.jpg") no-repeat center center fixed;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 #wrapper {
 	position: absolute;
